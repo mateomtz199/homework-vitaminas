@@ -1,0 +1,55 @@
+/* Aplicar fondo y fuente a la página */
+body{
+    background-color:dimgrey;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos al título */
+h1{
+    /* Agregar fuente */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Tamaño */
+    font-size: 40px;
+    /* Color */
+    color:snow;
+    /* Peso de la fuente (Negrita) */
+    font-weight: 400;
+
+}
+
+/* ****** Agregando estilos a la lista para que los elementos se vean cómo botones ****** */
+ul{
+    /* Quitar la viñeta de las listas */
+    list-style-type: none;
+
+    /* Agregar un margen de 15px por todos los lados */
+    margin: 15px;
+
+    /* Tamaño de ancho de la lista en pixeles */
+    width: 200px;
+}
+
+/* Agregando estilos a los elementos de la lista */
+ul li{
+    /* color de fondo de cada elemento */
+    background-color:black;
+    /* Agregando un borde blanco de un pixel a cada elemento */
+    border: white 1px solid;
+    /* Agregando un espacio de relleno entre el texto y el borde */
+    padding: 10px;
+}
+
+/*Estilos a los enlaces */
+ul li a{
+    /* Se le da color blanco al texto */
+    color: white;
+
+}
+/* Transformacion al pasar el cursos sobre un enlace */
+ul li a:hover{
+    /* Color de fuente */
+    color: skyblue;
+    /* Peso de la fuente */
+    font-weight: 600;
+}
